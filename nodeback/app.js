@@ -1,4 +1,5 @@
 const express = require('express')
+const cors=require('cors')
 const indexRouter=require('./router/index')
 const app = express();
 app.use(cors())
