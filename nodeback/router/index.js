@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const st = require('../student')
-const database = require('../databse/db')
+const database = require('../database/db')
 
 router.get('/getdata', async (req, res) => {
 
